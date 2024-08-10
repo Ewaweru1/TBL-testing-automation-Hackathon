@@ -1,0 +1,15 @@
+automation_framework example directory structure.
+
+--- tests/
+    --- login_test.py [Contains the test logic and uses the Page Object Model to interact with the web page.]
+    ---search_test.py
+ 
+--- pages/
+    --- login.py [Encapsulates the interactions with the login page, making the test code cleaner and more maintainable.]
+ 
+--- utils/
+    --- webdriver.py [Provides a reusable function for creating WebDriver instances with various configurations.]
+    --- report.py [Use tools like pytest with plugins like pytest-html to generate test reports]
+    ---configuration.py [To make the test data driven test data is stored in seperate file]
+
+

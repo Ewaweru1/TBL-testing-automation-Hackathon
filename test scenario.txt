@@ -1,0 +1,14 @@
+web-based e-commerce application test scenarios:
+
+Positive Test Case: Add Item to Cart
+
+1.Navigate to the product page.
+2.Click "Add to Cart" button.
+3.Verify the item appears in the cart.
+
+
+Negative Test Case: Add Out-of-Stock Item
+
+1.Navigate to an out-of-stock product page.
+2.Attempt to add to cart.
+3.Verify an error message appears indicating the item is out of stock.
