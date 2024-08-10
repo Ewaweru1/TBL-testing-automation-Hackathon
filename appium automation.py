@@ -19,7 +19,6 @@ def test():
         settings_button = driver.find_element(AppiumBy.ACCESSIBILITY_ID, "settings")
         settings_button.click()
 
-        # Verify the user can update their profile information
         profile_field = driver.find_element(AppiumBy.ACCESSIBILITY_ID, "profile")
         profile_field.clear()
         profile_field.send_keys("Updated Profile Information")

@@ -11,5 +11,3 @@ automation_framework example directory structure.
     --- webdriver.py [Provides a reusable function for creating WebDriver instances with various configurations.]
     --- report.py [Use tools like pytest with plugins like pytest-html to generate test reports]
     ---configuration.py [To make the test data driven test data is stored in seperate file]
-
-

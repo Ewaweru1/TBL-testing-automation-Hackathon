@@ -20,7 +20,7 @@ def search_test_automation():
         wait.until(EC.presence_of_element_located((By.ID, "search")))
 
         assert "Test Automation" in driver.page_source
-
+        
     finally:
         
         driver.quit()
